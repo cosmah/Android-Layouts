@@ -27,7 +27,7 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Name:"
+            android:text="Name: Ken"
             android:id="@+id/name"
             android:textStyle="bold"
             android:textSize="20dp"/>
@@ -36,28 +36,28 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:id="@+id/age"
-            android:text="Age:"
+            android:text="Age: 22"
             android:textStyle="bold"
             android:textSize="20dp"
-            android:paddingLeft="60dp"
+            android:paddingLeft="50dp"
             android:layout_toRightOf="@+id/name"/>
 
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:id="@+id/gender"
-            android:text="Gender:"
+            android:text="Gender:M"
             android:textSize="20dp"
             android:textStyle="bold"
-            android:paddingLeft="60dp"
-            android:paddingRight="60dp"
+            android:paddingLeft="50dp"
+            android:paddingRight="50dp"
             android:layout_toRightOf="@+id/age"/>
 
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:id="@+id/email"
-            android:text="Email:"
+            android:text="Email: sck@me.com"
             android:textStyle="bold"
             android:textSize="20dp"
 
@@ -67,10 +67,10 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:id="@+id/address"
-            android:text="Address: "
+            android:text="Address: Mutungo "
             android:textSize="20dp"
             android:textStyle="bold"
-            android:paddingLeft="60dp"
+            android:paddingLeft="30dp"
             android:layout_below="@+id/age"
             android:layout_toRightOf="@+id/email"/>
     </RelativeLayout>
